@@ -66,7 +66,7 @@ router.get('/', async (req, res) => {
             const myr = await XpbotsPair.sendMessage(XpbotsPair.user.id, { text: "*Thank you for choosing Maria-Md\nᴏᴡɴᴇʀ:ᴀʙʙʏ-ᴛᴇᴄʜ*" });
                         const mega_url = await upload(fs.createReadStream(auth_path + 'creds.json'), `${randomMegaId()}.json`);
 
-                        const string_session = mega_url.replace('https://mega.nz/file/', 'Maria-X');
+                        const string_session = mega_url.replace('https://mega.nz/file/', 'Maria-X~');
 
                         const sid = string_session;
 
